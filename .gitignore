@@ -1,0 +1,28 @@
+# Development IDE Configuration (only select files)
+.vscode/*
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+
+# Sensitive Environment Data
+.env.*.local
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing Reports
+/coverage/*/*
+
+# Scanner Files
+.scannerwork/
+
+# Production Builds
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
