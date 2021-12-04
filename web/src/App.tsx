@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import { Route, Routes, useLocation } from "react-router-dom";
-import base64 from "base-64";
 
 import "./App.css";
 
-const CLIENT_ID = "H8N2D7NedGKuZf_LrdSNIg";
-const CLIENT_SECRET = "Vf4cS6GjJR6l-gR5d_h0wiSaLNCkRw";
-const randomNumber = "newscopetokenid";
-const redirectUri = "http://localhost:3000";
+import.meta.env.VITE_SOME_KEY
+
+const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
+const CLIENT_SECRET = import.meta.env.VITE_CLIENT_SECRET;
+const randomNumber = import.meta.env.VITE_RANDOM_NUMBER;
+const redirectUri = import.meta.env.VITE_REDIRECT_URI as string;
 
 function App() {
   const [count, setCount] = useState(0);

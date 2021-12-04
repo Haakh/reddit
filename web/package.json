@@ -7,13 +7,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "base-64": "^1.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "6"
   },
   "devDependencies": {
-    "@types/base-64": "^1.0.0",
     "@types/react": "^17.0.35",
     "@types/react-dom": "^17.0.0",
     "@vitejs/plugin-react": "^1.0.0",
